@@ -9,18 +9,106 @@
 * {
   box-sizing: border-box;
 }
-
-body {
-  margin: 0;
-  font-family: Jacquarda_Bastarda_9, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+=======
 <button class="accordion">Unit 1: Building Community with Data</button>
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
+>>>>>>> 5166f4e2da9e7ffbec43817c3c0a8bde4bc6a155
 
+<<<<<<< HEAD
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #E9EDC9;
+  color: #D4A373;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+</head>
+<body style="text-align:center">
+
+<h2>Popup</h2>
+
+<div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup">You should be studying bro</span>
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
+
+=======
 <button class="accordion">Unit 2: The Real Number System</button>
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    
 
+
+>>>>>>> 5166f4e2da9e7ffbec43817c3c0a8bde4bc6a155
