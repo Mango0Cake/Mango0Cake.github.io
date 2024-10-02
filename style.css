@@ -5,8 +5,9 @@
 
 <html>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Be Vietnam Pro' rel='stylesheet'>
-<style>
+
+body {
+    background-color:#DBCDF4;
 body {
     font-family: 'Be Vietnam Pro';font-size: 22px;
 }
