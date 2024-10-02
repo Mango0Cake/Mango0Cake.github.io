@@ -1,71 +1,11 @@
 <link rel="stylesheet" type="text/css" href="https://mango0cake.github.io///style.css">
 
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-<title> Math 7 Honors Website!</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Be Vietnam Pro' rel='stylesheet'>
 <style>
-* {
-  box-sizing: border-box;
+body {
+    font-family: 'Be Vietnam Pro';font-size: 22px;
 }
-
-/* Style the side navigation */
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #e2f5df;
-  overflow-x: hidden;
-}
-
-
-/* Side navigation links */
-.sidenav a {
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color on hover */
-.sidenav a:hover {
-  background-color: #E9905D;
-  color: purple;
-}
-
-/* Style the content */
-.content {
-  margin-left: 200px;
-  padding-left: 20px;
-}
-</style>
-</head>
-<body>
-
-<div class="sidenav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-</div>
-
-<div class="content">
-  <h2>CSS Template</h2>
-  <p>Information on Hactoberfest!</p>
-</div>
-
-</body>
-</html>
-.jacquarda-bastarda-9-regular {
-  font-family: "Jacquarda Bastarda 9", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
-</style>
-
