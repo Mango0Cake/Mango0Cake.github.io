@@ -3,6 +3,8 @@
 
 <!DOCTYPE html>
 
+
+
 <html>
 <head>
 
@@ -13,11 +15,11 @@ body {
 }
 
 body {
-    background-color:#DBCDF4;
+    background-color:#f2ddc6;
 
 .button {
-    background-color: #fee1b8;
-    color: #a17e5d;
+    background-color: #fef0b8;
+    color: #a1745d;
     padding: 10px;
     border-radius: 10px;
     -moz-border-radius: 10px;
