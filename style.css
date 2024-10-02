@@ -9,3 +9,13 @@
 body {
     font-family: 'Be Vietnam Pro';font-size: 22px;
 }
+
+.button {
+    background-color: #f9eacded;
+    color: #ac7756;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
